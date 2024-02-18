@@ -3,8 +3,7 @@
 ## 如何运行
 
 ```shell
-cd ./docker
-docker-compose up -d
+docker compose up -f f docker/docker-compose.yaml up -d --build
 ```
 
 如果遇到启动失败，请检查各个参数是否正确，也可以自行修改 `docker-compose.yml` 文件中的参数
